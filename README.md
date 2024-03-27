@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository provides four real large-scale three-phase Australian MV (22kV L-L) distribution networks and corresponding _European-style_ LV (400V L-L) networks down to the connection point of single-phase customers. These networks are run and operated by [AusNet Services](https://www.ausnetservices.com.au/), a distribution company in the State of Victoria. This repository also includes a large pool of anonymised real 30-min resolution residential demand (kW) profiles. Furthermore, this repository provides the code necessary to run time-series power flow simulations and plot the corresponding results, including visualisation of geographical data, voltage profiles, and asset utilisation.
+This repository provides four real large-scale three-phase Australian MV (22kV L-L) distribution networks and corresponding LV networks (_European-style_ three-phase networks for urban and two-phase networks for rural) down to the connection point of single-phase customers. These networks are run and operated by [AusNet Services](https://www.ausnetservices.com.au/), a distribution company in the State of Victoria. This repository also includes a large pool of anonymised real 30-min resolution residential demand (kW) profiles. Furthermore, this repository provides the code necessary to run time-series power flow simulations and plot the corresponding results, including visualisation of geographical data, voltage profiles, and asset utilisation.
 
 The table below presents some of the main characteristics of the four Australian distribution networks. The "Name" corresponds to the code/ID used by AusNet Services. "C&I" stands for Commercial and Industrial. 
 
