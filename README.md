@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository provides four real large-scale three-phase Australian MV (22kV L-L) distribution networks and corresponding LV networks (_European-style_ three-phase networks for urban and two-phase networks for rural) down to the connection point of single-phase customers. These networks are run and operated by [AusNet Services](https://www.ausnetservices.com.au/), a distribution company in the State of Victoria. This repository also includes a large pool of anonymised real 30-min resolution residential demand (kW) profiles. Furthermore, this repository provides the code necessary to run time-series power flow simulations and plot the corresponding results, including visualisation of geographical data, voltage profiles, and asset utilisation.
+This repository provides four real large-scale three-phase Australian MV (22kV L-L) distribution networks and corresponding pseudo LV networks (European-style three-phase networks for urban and two-phase networks for rural) down to the connection point of single-phase customers (the pseudo LV networks have been created following modern Australian LV design principles [[1]](https://www.researchgate.net/publication/344346531_On_the_role_of_integrated_MV-LV_network_modelling_in_DER_studies)). These networks are run and operated by [AusNet Services](https://www.ausnetservices.com.au/), a distribution company in the State of Victoria. This repository also includes a large pool of anonymised real 30-min resolution residential demand (kW) profiles. Furthermore, this repository provides the code necessary to run time-series power flow simulations and plot the corresponding results, including visualisation of geographical data, voltage profiles, and asset utilisation.
 
 The table below presents some of the main characteristics of the four Australian distribution networks. The "Name" corresponds to the code/ID used by AusNet Services. "C&I" stands for Commercial and Industrial. 
 
@@ -60,7 +60,7 @@ Andreas Procopiou (andreasprocopiou@ieee.org)
 
 ## Acknowledgement
 
-We thank [AusNet Services](https://www.ausnetservices.com.au/) for providing the anonymised data of the four MV networks and the historical demand profiles used in this repository. These MV-LV networks were first created as part of the project [Advanced Planning of PV-Rich Distribution Networks](https://electrical.eng.unimelb.edu.au/power-energy/projects/pv-rich-distribution-networks). More details can be found in this report [[1]](https://www.researchgate.net/publication/334458042_Deliverable_1_HV-LV_modelling_of_selected_HV_feeders).
+We thank [AusNet Services](https://www.ausnetservices.com.au/) for providing the anonymised data of the four MV networks and the historical demand profiles used in this repository. These MV-LV networks were first created as part of the project [Advanced Planning of PV-Rich Distribution Networks](https://electrical.eng.unimelb.edu.au/power-energy/projects/pv-rich-distribution-networks). More details can be found in this report [[2]](https://www.researchgate.net/publication/334458042_Deliverable_1_HV-LV_modelling_of_selected_HV_feeders).
 
 The content of this repository has been produced with direct and/or indirect inputs from multiple members (past and present) of Prof Nando Ochoa’s Research Team. So, special thanks to all of them (many of whom are now in different corners of the world).
 
